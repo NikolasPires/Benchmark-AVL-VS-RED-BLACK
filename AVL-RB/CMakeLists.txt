@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.28)
+project(1 C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(1 main.c
+        avl.h
+        rubronegra.h
+        rubronegra.c
+        avl.c)
